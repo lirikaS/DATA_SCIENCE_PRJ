@@ -1,3 +1,29 @@
+# --- Secrets & Credentials ---
+.env
+secret.txt
+keys/
+*.pem
+credentials.json
+
+# --- Jupyter Notebook Artifacts ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+# To prevent committing large data files often used in notebooks
+*.csv
+*.json
+*.sqlite
+
+# --- Python & Environment ---
+__pycache__/
+.venv/
+env/
+venv/
+.python-version
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
